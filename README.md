@@ -10,3 +10,9 @@ building advanced tools and functionalities for a better teamwork environment du
 To install dependencies.
 
 `pip install -r requirements.txt`
+
+## Commands
+
+Upcoming CTFs
+
+`>ctftime upcoming`

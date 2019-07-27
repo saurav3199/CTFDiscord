@@ -1,5 +1,5 @@
 .vscode
-bot-env
+botenv
 __pycache__
 
 env.py
