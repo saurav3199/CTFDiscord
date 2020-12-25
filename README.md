@@ -16,3 +16,7 @@ To install dependencies.
 Upcoming CTFs
 
 `>ctftime upcoming`
+
+Top 10 rank
+
+`>ctftime rank`
