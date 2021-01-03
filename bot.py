@@ -117,8 +117,8 @@ async def ctftime(ctx, cmd=""):
         df = pd.read_html(team_perf.text, match = r"CTF points")[0]
         table = df.values.tolist()
 
-        for row in table:                          
-           row[4] = row[4].replace('*','')                  #cleaning table
+        for row in table:       
+           row[4] = float(str(row[4]).replace('*',''))                  #cleaning table
         topEvents = sorted(table, key=lambda p:float(p[4]), reverse=True)[:10]
         table = get_table(topEvents)
 
